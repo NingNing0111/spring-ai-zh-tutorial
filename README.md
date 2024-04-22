@@ -1,6 +1,20 @@
 
 &emsp;语雀地址：[https://www.yuque.com/pgthinker/spring-ai](https://www.yuque.com/pgthinker/spring-ai)
 
+
+- Spring AI - Chat API
+  - [快速入门](doc/2.1%20快速入门.md)
+  - [流式对话](doc/2.2.%20流式对话.md)
+  - [上下文对话](doc/2.3.%20上下文对话.md)
+  - [人设设置](doc/2.4.%20人设设置.md)
+  - [Prompts模板语法](doc/2.5.%20Prompts模板语法.md)
+  - [基于数据库的多Key轮询](doc/2.6.%20基于数据库的多Key轮询.md)
+
+- Spring AI - Image API
+
+- Spring AI - Embedding API
+- Spring AI - Transcription API
+
 # Spring AI教程
 
 &emsp;Spring AI是Spring生态中应用于人工智能领域的应用框架，它的目标是将Spring 生态系统的设计原则（如可移植性、模块化设计）应用于AI领域，并在AI领域中推广使用POJO（Plain Old Java Objects）作为应用的构建模块。
