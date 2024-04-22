@@ -1,0 +1,7 @@
+server:
+  port: 8321
+spring:
+  ai:
+    openai:
+      api-key: sk-W9kYeE6xxxxxxxxxxxxxxxxB96fAd460353Dc7a
+      base-url: https://api.mnzdna.xyz

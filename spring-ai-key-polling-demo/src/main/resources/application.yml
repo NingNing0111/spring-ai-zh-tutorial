@@ -1,0 +1,18 @@
+server:
+  port: 8321
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost/demo
+  jpa:
+    hibernate:
+      # 自动创建表
+      ddl-auto: create
+    show-sql: true
+    open-in-view: true
+
+  autoconfigure:
+    exclude: org.springframework.ai.autoconfigure.openai.OpenAiAutoConfiguration
