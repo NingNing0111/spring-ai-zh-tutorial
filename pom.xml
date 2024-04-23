@@ -17,6 +17,7 @@
     <modules>
         <module>spring-ai-chat-demo</module>
         <module>spring-ai-key-polling-demo</module>
+        <module>spring-ai-image-demo</module>
     </modules>
 
     <properties>

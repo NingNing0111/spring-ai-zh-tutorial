@@ -11,6 +11,8 @@
   - [基于数据库的多Key轮询](doc/2.6.%20基于数据库的多Key轮询.md)
 
 - Spring AI - Image API
+  - [快速入门+源码介绍](doc/3.1.%20快速入门.md)
+  - [AI自查实现对话和绘画](doc/3.2.%20AI自查判断聊天还是绘图.md)
 
 - Spring AI - Embedding API
 - Spring AI - Transcription API
