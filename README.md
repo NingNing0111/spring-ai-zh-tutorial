@@ -15,6 +15,12 @@
   - [AI自查实现对话和绘画](doc/3.2.%20AI自查判断聊天还是绘图.md)
 
 - Spring AI - Embedding API
+
+  - [Embedding API快速入门](doc/4.1.%20快速入门.md)
+  - [向量数据库概述](doc/4.2.%20向量数据库概述.md)
+  - [Embedding API结合向量数据库](doc/4.3.%20嵌入API结合向量数据库.md)
+  - [RAG实战](doc/4.4.%20RAG实战.md)
+
 - Spring AI - Transcription API
 
 # Spring AI教程
