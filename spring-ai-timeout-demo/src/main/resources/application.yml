@@ -1,0 +1,8 @@
+server:
+  port: 8321
+
+spring:
+
+  autoconfigure:
+    exclude: org.springframework.ai.autoconfigure.openai.OpenAiAutoConfiguration
+

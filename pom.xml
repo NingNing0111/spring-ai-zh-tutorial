@@ -20,6 +20,7 @@
         <module>spring-ai-image-demo</module>
         <module>spring-ai-embeddings-demo</module>
         <module>spring-ai-rag-demo</module>
+        <module>spring-ai-timeout-demo</module>
     </modules>
 
     <properties>
