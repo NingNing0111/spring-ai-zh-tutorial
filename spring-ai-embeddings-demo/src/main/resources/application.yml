@@ -1,0 +1,13 @@
+server:
+  port: 8831
+
+spring:
+
+  ai:
+    openai:
+      api-key: sk-W9kYexxxxxxxxxxxxx6B96fAd460353Dc7a
+      base-url: https://api.mnzdna.xyz
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost/demo

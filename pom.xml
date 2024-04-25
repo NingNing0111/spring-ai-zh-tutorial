@@ -18,6 +18,8 @@
         <module>spring-ai-chat-demo</module>
         <module>spring-ai-key-polling-demo</module>
         <module>spring-ai-image-demo</module>
+        <module>spring-ai-embeddings-demo</module>
+        <module>spring-ai-rag-demo</module>
     </modules>
 
     <properties>
