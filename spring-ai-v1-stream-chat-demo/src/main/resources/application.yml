@@ -1,0 +1,13 @@
+server:
+  port: 8898
+
+
+spring:
+  ai:
+    openai:
+      api-key: sk-zk2503xxxxxxxxxxxxxxxxxxxcf6613f975d2750
+      base-url: https://api.example.com
+  mvc:
+    view:
+      prefix: classpath:/static/
+      suffix: .html

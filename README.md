@@ -9,6 +9,7 @@
   - [人设设置](doc/2.4.%20人设设置.md)
   - [Prompts模板语法](doc/2.5.%20Prompts模板语法.md)
   - [基于数据库的多Key轮询](doc/2.6.%20基于数据库的多Key轮询.md)
+  - [基于Vue3实现流式对话]()
 
 - Spring AI - Image API
   - [快速入门+源码介绍](doc/3.1.%20快速入门.md)
