@@ -9,7 +9,10 @@
   - [人设设置](doc/2.4.%20人设设置.md)
   - [Prompts模板语法](doc/2.5.%20Prompts模板语法.md)
   - [基于数据库的多Key轮询](doc/2.6.%20基于数据库的多Key轮询.md)
-  - [基于Vue3实现流式对话]()
+  - [基于Vue3实现流式对话](https://github.com/NingNing0111/spring-ai-zh-tutorial/tree/master/spring-ai-v1-stream-chat-demo)
+    - 前后端分离，core是Vue源码，static是build出来的静态资源内容
+    - 使用最新的Spring AI版本：1.0实现
+    - 运行该模块后可以通过：`http://localhost:8898/index.html` 直接访问网站
 
 - Spring AI - Image API
   - [快速入门+源码介绍](doc/3.1.%20快速入门.md)
