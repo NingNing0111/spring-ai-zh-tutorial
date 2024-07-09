@@ -5,8 +5,9 @@ server:
 spring:
   ai:
     openai:
-      api-key: sk-zk2503xxxxxxxxxxxxxxxxxxxcf6613f975d2750
-      base-url: https://api.example.com
+      api-key: sk-zk2503axxxxxxxxxxxxcf6613f975d2750
+
+      base-url: https://flag.example.com
   mvc:
     view:
       prefix: classpath:/static/
