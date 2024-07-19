@@ -5,7 +5,7 @@ spring:
 
   ai:
     openai:
-      api-key: sk-W9kYexxxxxxxxxxxxx6B96fAd460353Dc7a
+      api-key: sk-W9kYeE3JfWM86sr66e29FfC7B3194406B96fAd460353Dc7a
       base-url: https://api.mnzdna.xyz
   datasource:
     username: postgres
