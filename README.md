@@ -27,6 +27,9 @@
 
 - Spring AI - Transcription API
 
+- 实战练习项目
+  - [know-hub-ai](https://github.com/NingNing0111/know-hub-ai)：Spring AI and PGVector 基于个人知识库的AI问答系统。
+
 # Spring AI教程
 
 &emsp;Spring AI是Spring生态中应用于人工智能领域的应用框架，它的目标是将Spring 生态系统的设计原则（如可移植性、模块化设计）应用于AI领域，并在AI领域中推广使用POJO（Plain Old Java Objects）作为应用的构建模块。
