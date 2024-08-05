@@ -13,7 +13,7 @@
     - 前后端分离，core是Vue源码，static是build出来的静态资源内容
     - 使用最新的Spring AI版本：1.0实现
     - 运行该模块后可以通过：`http://localhost:8898/index.html` 直接访问网站
-
+  - [Function Call函数调用](doc/2.8.Function%20Call函数调用.md)
 - Spring AI - Image API
   - [快速入门+源码介绍](doc/3.1.%20快速入门.md)
   - [AI自查实现对话和绘画](doc/3.2.%20AI自查判断聊天还是绘图.md)

@@ -4,5 +4,6 @@ server:
 spring:
   ai:
     openai:
+#      Key分享自：https://pgthinker.me/2023/10/03/196/
       base-url: https://api.mnzdna.xyz
-      api-key: sk-W9kYxxxxxxxxxxxxxxxx6fAd460353Dc7a
+      api-key: sk-KgvugzpKzki15GFxB72e7782De844b23B3E4Fc6dDf40B29a

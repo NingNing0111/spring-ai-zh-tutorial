@@ -5,10 +5,12 @@ import com.example.model.dto.PostChatDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.ai.chat.model.ChatResponse;
+import org.springframework.ai.chat.model.StreamingChatModel;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.ai.chat.prompt.PromptTemplate;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 
@@ -26,6 +28,7 @@ import java.util.Map;
 @CrossOrigin // 解决跨域
 public class ChatController {
     private final ChatModel chatModel;
+    private final StreamingChatModel streamingChatModel;
     @Value("classpath:author-book.st")
     private Resource resource;
 
@@ -33,6 +36,7 @@ public class ChatController {
     public Flux<ChatResponse> postStreamChat(@RequestBody PostChatDto dto){
         PromptTemplate promptTemplate = new PromptTemplate(resource);
         Prompt prompt = promptTemplate.create(Map.of("author", dto.getAuthor()));
+
         return chatModel.stream(prompt).flatMapSequential(Flux::just);
     }
 
@@ -44,9 +48,32 @@ public class ChatController {
         return chatModel.stream(prompt).flatMapSequential(Flux::just);
     }
 
-    @GetMapping("/test")
-    public String test() {
-        return "ok";
+    @GetMapping(value = "/test")
+    public Flux<String> test() {
+        Flux<String> resp = streamingChatModel.stream("Four Great Classical Novels of China.");
+        Flux<String> handledResp = Flux.create(emit -> {
+            emit.next("<div style='white-space: pre-line;'>");
+            resp.subscribe(item -> {
+                if (item != null) {
+                    emit.next(item);
+                } else {
+                    emit.next("</div>");
+                }
+
+            });
+
+        });
+
+
+        return handledResp;
+
     }
+
+    @GetMapping("/wait-chat")
+    public String waitChat(){
+        String resp = chatModel.call("Four Great Classical Novels of China.");
+        return "<div style='white-space: pre-line;'>" + resp + "</div>";
+    }
+
 
 }

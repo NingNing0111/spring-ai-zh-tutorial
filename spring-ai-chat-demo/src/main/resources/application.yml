@@ -2,6 +2,7 @@ server:
   port: 8321
 spring:
   ai:
+    # Key分享自：https://pgthinker.me/2023/10/03/196/
     openai:
-      api-key: sk-W9kYeE6xxxxxxxxxxxxxxxxB96fAd460353Dc7a
+      api-key: sk-KgvugzpKzki15GFxB72e7782De844b23B3E4Fc6dDf40B29a
       base-url: https://api.mnzdna.xyz

@@ -5,6 +5,7 @@ server:
 spring:
   ai:
     openai:
-      api-key: sk-zk250**************f6613f975d2750
+      #      Key分享自：https://pgthinker.me/2023/10/03/196/
+      base-url: https://api.mnzdna.xyz
+      api-key: sk-KgvugzpKzki15GFxB72e7782De844b23B3E4Fc6dDf40B29a
 
-      base-url: https://api.example.com

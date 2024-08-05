@@ -29,9 +29,9 @@ public class ChatService {
     @PostConstruct
     public void initData() {
         KeyInfo keyInfo = new KeyInfo();
-        keyInfo.setKey("sk-W9kxxxxxxxxxxxxxxxxxfAd460353Dc7a");
+        keyInfo.setKey("sk-KgvugzpKzki15GFxB72e7782De844b23B3E4Fc6dDf40B29a");
         keyInfo.setApi("https://api.mnzdna.xyz");
-        keyInfo.setDescription("测试API和Key，请填写自己的Key");
+        keyInfo.setDescription("Key分享自：https://pgthinker.me/2023/10/03/196/");
         repository.save(keyInfo);
     }
 

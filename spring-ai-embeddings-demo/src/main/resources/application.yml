@@ -5,7 +5,8 @@ spring:
 
   ai:
     openai:
-      api-key: sk-W9kYeE3JfWM86sr66e29FfC7B3194406B96fAd460353Dc7a
+#      Key分享自：https://pgthinker.me/2023/10/03/196/
+      api-key: sk-KgvugzpKzki15GFxB72e7782De844b23B3E4Fc6dDf40B29a
       base-url: https://api.mnzdna.xyz
   datasource:
     username: postgres
